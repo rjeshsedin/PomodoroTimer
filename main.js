@@ -1,5 +1,5 @@
-import Timer from "./Timer.js";
-import UI from "./UI.js";
+import Timer from "./timer.js";
+import UI from "./ui.js";
 
 const ui = new UI();
 
