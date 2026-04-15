@@ -37,7 +37,6 @@ export default class Timer {
   #switchMode() {
     this.#isWork = !this.#isWork;
     this.#seconds = this.#isWork ? this.#workTime : this.#breakTime;
-
     this.modeCallback(this.#isWork ? "Work" : "Break");
   }
 }
